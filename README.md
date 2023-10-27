@@ -1,7 +1,7 @@
 # Random Product Name Generator
 Click the screen for a random product/band/company name. Useful for brainstorming, school projects and hackathon-type activities.
 
-[Live Demo](https://sait-wbdv.github.io/namor/)
+[Live Demo](https://sait-wbdv.github.io/namor)
 
 Noun list based on the Snake Oil card game. out of print :(
 
