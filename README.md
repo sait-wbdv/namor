@@ -3,7 +3,7 @@ Click the screen for a random product/band/company name. Useful for brainstormin
 
 [Live Demo](https://sait-wbdv.github.io/namor/)
 
-Noun list based on the Snake Oil card game. out of print :
+Noun list based on the Snake Oil card game. out of print :(
 
 ## Attributions
 ### Colour
