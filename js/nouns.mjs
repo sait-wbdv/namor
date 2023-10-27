@@ -338,5 +338,8 @@ export const nouns = [
   "mountain",
   "time",
   "bed",
-  "feather"
+  "feather",
+  "pebble",
+  "candle",
+  "mirror"
 ];
