@@ -1,0 +1,73 @@
+/* TODO: move this CSS to an external stylesheet */
+    * {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+    
+    body {
+      --lum-super-light: 95%;
+
+      --clr-hbg: hsl(var(--hue), var(--sat-muted), var(--lum-super-light));
+      --clr-h: hsl(var(--auto-hue2), var(--sat), var(--lum-very-dark));
+      --clr-border: hsl(var(--auto-hue4), var(--sat-washed), var(--lum-kinda-light));
+
+      margin: 0;
+      padding: 0 5vmin;
+      min-height: 85vh;
+
+      display: flex;
+
+      font-size: 8vmin; /* Ugh. IE, Safari... Safari!?! */
+      font-size: clamp(5vmin, 8vmin, 64px);
+
+      text-transform: capitalize;
+    }
+    
+    main {
+      display: flex;
+      margin: auto;
+    }
+    
+    .phrase {
+      font-variant: small-caps;
+      text-align: center;
+      font-weight: normal;
+      
+      border-color: var(--clr-border);
+      background-color: var(--clr-hbg);
+      color: var(--clr-h);
+      
+      margin: auto;
+      padding: 10vmin;
+
+      border-width: 2vmin;
+      border-style: solid;
+      
+    }
+
+    .phrase h1 {
+      margin: 0;
+    }
+
+    form {
+      font-size: initial;
+
+      display: flex;
+      align-items: flex-end;
+    }
+
+    fieldset {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    div.wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+
+    @media screen and (min-width: 960px) {
+      body {
+        min-height: 100vh;
+      }
+    }
