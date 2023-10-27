@@ -17,3 +17,6 @@ Noun list based on the Snake Oil card game. out of print :(
 
 ### Snake Oil
 Thanks to Craig for lending me his (out of print) copy of the [Snail Oil Card Game](https://boardgamegeek.com/boardgame/113289/snake-oil), from which the Phraser vocabulary is based.
+
+### Instructions to turn on adjectives
+- Add the link 'index.html?adjectives=true' into the URL
