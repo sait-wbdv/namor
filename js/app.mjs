@@ -11,7 +11,7 @@ if (urlParams.get('adjectives') == 'true') {
   adj = false;
 }
 
-var container = document.querySelector('.phrase');
+const container = document.querySelector('.phrase');
 
 container.innerHTML = phraser.generate(2, adj);
 colour.setRandomHue();
