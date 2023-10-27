@@ -5,6 +5,9 @@ Click the screen for a random product/band/company name. Useful for brainstormin
 
 Noun list based on the Snake Oil card game. out of print :(
 
+## Instructions
+- Add index.html?adjectives=true in the URL to turn on adjectives.
+
 ## Attributions
 ### Colour
 - [Read color hex codes](https://youtu.be/eqZqx6lRPe0) by David DeSandro
