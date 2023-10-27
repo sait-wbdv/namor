@@ -1,5 +1,5 @@
-import { phraser } from './phraser.mjs';
-import { colour } from './colour.mjs';
+import { phraser } from './phraser.js';
+import { colour } from './colour.js';
 
 
 // Toggle for adjectives
