@@ -1,5 +1,5 @@
-import { phraser } from './phraser.mjs';
-import { colour } from './colour.mjs';
+import { phraser } from './phraser.js';
+import { colour } from './colour.js';
 
 
 // Toggle for adjectives
@@ -11,7 +11,7 @@ if (urlParams.get('adjectives') == 'true') {
   adj = false;
 }
 
-var container = document.querySelector('.phrase');
+const container = document.querySelector('.phrase');
 
 container.innerHTML = phraser.generate(2, adj);
 colour.setRandomHue();
